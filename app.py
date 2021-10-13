@@ -7,4 +7,4 @@ def hello():
 
 @app.route("/poc")
 def about():
-    return "Subdomain takeover POC by Chux"
+    return "<h3>Subdomain takeover POC by Chux</h3>"
