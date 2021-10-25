@@ -5,6 +5,6 @@ app = Flask(__name__)
 def hello():
     return ""
 
-@app.route("/poc")
+@app.route("/poc-3fe5d54dbf.html")
 def about():
     return "Subdomain takeover POC by Chux"
